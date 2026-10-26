@@ -3,9 +3,7 @@ main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-# 添加下面这两行，关闭默认的子域名和预览 URL
-workers_dev = false
-preview_urls = false
+
 
 # ...
 [vars]
