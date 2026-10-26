@@ -17,3 +17,18 @@ ADMIN = "higashi8690"
 binding = "KV"
 id = "1d65c5ad973c42c9af457bc3d3d3960a"
 # ...
+# ...
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = false
+head_sampling_rate = 1
+persist = true
+
+[observability.issue_detection]
+enabled = false
+# ...
