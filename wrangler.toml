@@ -2,6 +2,15 @@ name = "v20251104"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
+# ...
+[vars]
+ADMIN = "higashi8690"
+# ...
+# ...
+[[kv_namespaces]]
+binding = "KV"
+id = "1d65c5ad973c42c9af457bc3d3d3960a"
+# ...
 
 #[[kv_namespaces]]
 #binding = "KV"			#KV绑定名默认不可修改
